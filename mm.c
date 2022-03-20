@@ -1,14 +1,3 @@
-
-
-
-
-
-After placing the requested block in the free block,
-The allocator splits the block if the remainder would
-be equal to or greater than the minimum block size.
-
-
-
 /*
  * mm.c - Simple allocator package based on implicit list.
  * 
