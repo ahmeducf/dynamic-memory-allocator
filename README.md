@@ -18,7 +18,9 @@ A dynamic memory allocator maintains an area of a process's virtual memory known
 5. **Coalescing policy**
     - The allocator uses ***immediate boundary-tag*** coalescing, that it merges next and previous free blocks with the current block each time an applications calls ***free()*** on this current block.
 
-
+## Files
+- `mm.{c,h}`: The package implementation
+- `memlib.{c,h}`: A module that simulates the memory system
 
 ## Thoughts
 - The project helped me understand different memory allocation techniques and how memory allocators work.
