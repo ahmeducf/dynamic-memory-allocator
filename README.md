@@ -1,5 +1,5 @@
 # Dynamic Memory Allocator
-A simple explict allocator package based on implicit list.
+A simple explicit allocator package based on implicit list.
 
 It's an application for learning about ***Virtual Memory*** and ***Dynamic memory Allocation***.
 
